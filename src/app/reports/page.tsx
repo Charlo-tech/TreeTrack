@@ -32,7 +32,7 @@ export default function ReportsPage() {
     <div className="mx-auto max-w-[1100px] p-4 md:p-6 grid gap-6 lg:grid-cols-[1fr_380px]">
       <div className="space-y-4">
         <h1 className="text-xl font-semibold flex items-center gap-2"><FileText className="h-5 w-5"/> Field Reports</h1>
-        <p className="text-sm text-zinc-500">Reports via USSD <code className="px-1 py-0.5 bg-zinc-100 rounded">*384*TREES#</code> and web form. Stored in Supabase <code>field_reports</code>.</p>
+        <p className="text-sm text-zinc-500">Reports via USSD <code className="px-1 py-0.5 bg-zinc-100 rounded">*384*33799#</code> and web form. Stored in Supabase <code>field_reports</code>.</p>
 
         <div className="space-y-3">
           {reports.map((r)=>(
